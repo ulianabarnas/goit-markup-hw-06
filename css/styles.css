@@ -744,15 +744,13 @@ display: flex;
 }
 
 .checkbox-wrapper {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
   margin-bottom: 30px;
 }
 
 .checkbox-label {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .checkbox-wrapper-check {
