@@ -482,9 +482,7 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-
         <b class="call-to-action">Оставьте свои данные, мы вам перезвоним</b>
-
         <form class="contact-form">
           <label class="field" for="user_name">Имя</label>
           <div class="input-wrapper">
@@ -499,7 +497,6 @@
               <use href="./images/icons.svg#person"></use>
             </svg>
           </div>
-
           <label class="field" for="tel">Телефон</label>
           <div class="input-wrapper">
             <input
@@ -513,7 +510,6 @@
               <use href="./images/icons.svg#phone"></use>
             </svg>
           </div>
-
           <label class="field" for="email">Почта</label>
           <div class="input-wrapper">
             <input
@@ -532,8 +528,8 @@
             class="comment"
             name="user_comment"
             placeholder="Введите текст"
+            id="comment"
           ></textarea>
-
           <div class="checkbox-wrapper">
             <input
               class="checkbox visually-hidden"
@@ -542,24 +538,21 @@
               id="policy-checkbox"
               required
             />
-
             <label class="checkbox-label" for="policy-checkbox">
               <span class="checkbox-wrapper-check">
                 <svg class="checkbox-empty" width="16" height="15">
                   <use href="./images/icons.svg#checkbox-empty"></use>
                 </svg>
-
                 <svg class="checkbox-checked" width="16" height="15">
                   <use href="./images/icons.svg#checked"></use>
                 </svg>
               </span>
               <span
                 >Соглашаюсь с рассылкой и принимаю
-                <a href="">Условия договора</a></span
+                <a class="link-agreement" href="">Условия договора</a></span
               ></label
             >
           </div>
-
           <button class="button primary form-submit" type="submit">
             Отправить
           </button>

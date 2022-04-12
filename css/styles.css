@@ -788,6 +788,10 @@ display: flex;
   transition: opacity var(--duration) var(--timing-function);
 }
 
+.link-agreement {
+  color: var(--accent-color);
+}
+
 .form-submit {
   display: block;
   margin: 0 auto;
