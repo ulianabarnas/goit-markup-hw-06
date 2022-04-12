@@ -793,13 +793,6 @@ display: flex;
 .form-submit {
   display: block;
   margin: 0 auto;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.form-submit:hover,
-.form-submit:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.15)
-  ;
 }
 
 /* =============== MODAL END =============== */
