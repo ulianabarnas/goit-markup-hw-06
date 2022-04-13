@@ -604,6 +604,7 @@ display: flex;
 
 .subscription .icon {
   margin-left: 10px;
+  fill: var(--primary-bg-color)
 }
 
 /* =============== FOOTER END =============== */
@@ -666,6 +667,16 @@ display: flex;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+
+.close-btn:hover .close-icone,
+.close-btn:focus .close-icone {
+  fill: var(--accent-color);
+}
+
+.close-icone {
+  fill: #000000;
+  transition: fill var(--duration) var(--timing-function);
 }
 
 .call-to-action {
